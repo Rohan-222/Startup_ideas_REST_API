@@ -105,18 +105,18 @@ GET https://your-api-name.onrender.com/ideas
 
 ## 🔗 Live API Link
 
-👉 [**Click Here to Access the API**](https://your-api-name.onrender.com) *(Replace with your Render URL)*
+👉 (https://startup-ideas-rest-api.onrender.com) 
 
 ### 📌 Sample Test Cases for Postman
 
 #### 1️⃣ Fetch All Ideas
 ```sh
-GET https://your-api-name.onrender.com/ideas
+GET https://startup-ideas-rest-api.onrender.com/ideas
 ```
 
 #### 2️⃣ Add a New Idea
 ```sh
-POST https://your-api-name.onrender.com/ideas
+POST https://startup-ideas-rest-api.onrender.com/ideas
 Content-Type: application/json
 
 {
@@ -127,17 +127,17 @@ Content-Type: application/json
 
 #### 3️⃣ Get Idea by ID
 ```sh
-GET https://your-api-name.onrender.com/ideas/1
+GET https://startup-ideas-rest-api.onrender.com/ideas/1
 ```
 
 #### 4️⃣ Get Ideas by Category
 ```sh
-GET https://your-api-name.onrender.com/ideas/category/tech
+GET https://startup-ideas-rest-api.onrender.com/category/tech
 ```
 
 #### 5️⃣ Update Idea Status
 ```sh
-PUT https://your-api-name.onrender.com/ideas/1
+PUT https://startup-ideas-rest-api.onrender.com/ideas/1
 Content-Type: application/json
 
 {
@@ -147,7 +147,7 @@ Content-Type: application/json
 
 #### 6️⃣ Delete an Idea
 ```sh
-DELETE https://your-api-name.onrender.com/ideas/1
+DELETE https://startup-ideas-rest-api.onrender.com/ideas/1
 ```
 
 ---
