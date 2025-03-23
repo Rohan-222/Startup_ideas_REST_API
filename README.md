@@ -105,21 +105,56 @@ GET https://your-api-name.onrender.com/ideas
 
 ## 🔗 Live API Link
 
-👉 (https://startup-ideas-rest-api.onrender.com) 
+👉 [**Click Here to Access the API**](https://your-api-name.onrender.com) *(Replace with your Render URL)*
+
+### 📌 Sample Test Cases for Postman
+
+#### 1️⃣ Fetch All Ideas
+```sh
+GET https://your-api-name.onrender.com/ideas
+```
+
+#### 2️⃣ Add a New Idea
+```sh
+POST https://your-api-name.onrender.com/ideas
+Content-Type: application/json
+
+{
+    "title": "Smart Plant Monitor",
+    "category": "tech"
+}
+```
+
+#### 3️⃣ Get Idea by ID
+```sh
+GET https://your-api-name.onrender.com/ideas/1
+```
+
+#### 4️⃣ Get Ideas by Category
+```sh
+GET https://your-api-name.onrender.com/ideas/category/tech
+```
+
+#### 5️⃣ Update Idea Status
+```sh
+PUT https://your-api-name.onrender.com/ideas/1
+Content-Type: application/json
+
+{
+    "status": "funded"
+}
+```
+
+#### 6️⃣ Delete an Idea
+```sh
+DELETE https://your-api-name.onrender.com/ideas/1
+```
 
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License. See `LICENSE.md` for details.
-
----
-
-### 🎯 Next Steps
-
-✅ Improve error handling\
-✅ Add authentication\
-✅ Deploy on another cloud provider for comparison
 
 ---
 
