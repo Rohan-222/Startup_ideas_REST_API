@@ -121,7 +121,8 @@ Content-Type: application/json
 
 {
     "title": "Smart Plant Monitor",
-    "category": "tech"
+    "category": "tech",
+    "status": "funded"
 }
 ```
 
